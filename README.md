@@ -9,47 +9,37 @@
 *  To create a community of engineers who are well qualified to play an important     role in the development of the electronics industry worldwide 
 # Mission:
 * IEEE-SSCS Alexandria Student Chapter "IEEE SSCS ALEX SC" is formed to meet the needs of undergraduate and postgraduate students interested in thr field of electroincs and allof its related topics. Exploting the growing interest and successive developments in the electroincs filed in Egypt, the chapter holds aseries of events and activities that aims at providing the future electroincs engineers with the knwledge and skills they need to cope uo with the daily advancing technologies.
+# Advanced Embedded System 
+## _Build Simple BareMetal Applcation From Scratch_
 
-# 2021-Plan(Embedded-SubTeam)!
+[![N|Solid](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMlrTgqWFG-xgRrymxASa7p0u3ndtx5u981zJioWAwnSPv8pweK47DRmCaV3JRfoJFPHI&usqp=CAU)](https://qemu.readthedocs.io/en/latest/system/arm/versatile.html)
 
-  - Import a HTML file and watch it magically convert to Markdown
-  - Drag and drop images (requires your Dropbox account be linked)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/ELabbassalah56)
 
+## **__We will create a baremetal software to send a "String" using :__**
 
-You can also:
-  - Import and save files from GitHub, Dropbox, Google Drive and One Drive
-  - Drag and drop markdown and HTML files into Dillinger
-  - Export documents as Markdown, HTML and PDF
+- GNU ARM Cross-ToolChain
+- Qemu
+- UART Serial Communcation
+## You Will Learn
+- Startup
+- Linker
+- Location counter,
+- Linker script symbols
+- Makefile
+- GDB commands
+- Binary utilities: 
+  - Objdump
+  - Objcopy,
+  - Addr2line
+  - Size
+  - Readelf
 
-Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site][df1]
+## Prerequisites
 
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
+> Download >> Qemu & GNU ARM Cross ToolChain
+- [QEMU](https://drive.google.com/drive/folders/1Ox0Zo10yMHAMz1VL0mAFqQwFB-in9NTM)      > *ARM System Emulated With Qemu Called "VersatilePB physical Board" !*
 
-This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
-
-### Tech
-
-Embedded system Tech :
-* [C](https://www.youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM)
-* [C++](https://www.learncpp.com)
-* [intro_embeddedsystem]() 
-* [Interfacing]()
-* [Communication Protocol]()
-* [RTOS]()
-* [TESTING]()
-* [Tooling]()
-* [Automtive Buses]()
-* [Autosare classic/adaptive](https://www.youtube.com/channel/UCOG-qluwZnKIzDicdc0R_Rg)
-* [embedded linux]()
-* [projects]()
-* [Sessions]()
-* [GIT](https://www.udemy.com/course/git-and-github-crash-course-creating-a-repository-from-scratch/)
-* [DSA](https://www.youtube.com/playlist?list=PLoK2Lr1miEm-5zCzKE8siQezj9rvQlnca)
-> FLow on GitHub.
-
+- [CROSS TOOLCHAIN](https://drive.google.com/drive/folders/1Ox0Zo10yMHAMz1VL0mAFqQwFB-in9NTM) > *ARM Cross ToolChain To Build System !*
+- [GIT BASH](https://git-scm.com/download/win) > *Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals !*
+- [NOTEBAD++](https://notepad-plus-plus.org/downloads/v8.1.4/) >*Editor for Coding*
