@@ -1,4 +1,4 @@
-#include"../HAl/uart.h"
+#include"../Mcal/uart.h"
 
 unsigned char string[100]="Learn_depth_<Elabbas Salah>";
 unsigned char const string2[100]="Learn_depth_<Elabbas Salah>";
